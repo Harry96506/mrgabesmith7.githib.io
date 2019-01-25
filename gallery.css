@@ -1,0 +1,54 @@
+.gallerycontainer{
+position: relative;
+/*Add a height attribute and set to largest image's height to prevent overlaying*/
+}
+.thumbnail img{
+border: 1px solid white;
+margin: 0 5px 5px 0;
+}
+.thumbnail:hover{
+background-color: transparent;
+}
+.thumbnail:hover img{
+border: 1px solid #32CD32;
+}
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: #202020;
+padding: 5px;
+left: -1000px;
+border: 1px solid gray;
+visibility: hidden;
+color: #32CD32;
+text-decoration: none;
+text-align: center;
+font-family: Helvetica, Verdana, sans-serif;
+font-size: 30px;
+  
+}
+   body  {
+      font-family: sans-serif;
+      margin: 5px;
+      background-image: url(https://raw.githubusercontent.com/Harry96506/Harry96506.github.io/master/background.gif);
+      background-size:cover;
+      margin:0;
+      padding:0;
+}
+
+embed {
+  display:none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+}
+
+body img.favicon {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
